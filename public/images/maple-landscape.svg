@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="600" viewBox="0 0 1600 600" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="60%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="fields" x1="0" x2="1">
+      <stop offset="0%" stop-color="#bbf7d0"/>
+      <stop offset="100%" stop-color="#86efac"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/>
+  <g transform="translate(0,220)">
+    <path d="M0 220 C200 120 400 120 600 220 C800 320 1000 320 1200 220 C1400 120 1600 120 1600 120 L1600 380 L0 380 Z" fill="url(#fields)" />
+    <g transform="translate(80,20)" fill="#14532d">
+      <circle cx="80" cy="120" r="40"/>
+      <rect x="72" y="140" width="16" height="40" fill="#6b4226" rx="3"/>
+    </g>
+    <g transform="translate(420,0)" fill="#14532d">
+      <circle cx="80" cy="100" r="52"/>
+      <rect x="72" y="152" width="16" height="44" fill="#6b4226" rx="3"/>
+    </g>
+    <g transform="translate(1000,10)" fill="#14532d">
+      <circle cx="80" cy="120" r="44"/>
+      <rect x="72" y="160" width="16" height="40" fill="#6b4226" rx="3"/>
+    </g>
+  </g>
+  <g transform="translate(90,330)">
+    <rect x="0" y="0" width="400" height="140" rx="12" fill="#6b8b3d" opacity="0.08"/>
+  </g>
+  <g transform="translate(220,360)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="44" fill="#5b3411">Sumner Hill Farm</text>
+  </g>
+</svg>

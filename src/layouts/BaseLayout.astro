@@ -1,0 +1,29 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+const { title } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title ? `${title} — Sumner Hill Farm` : 'Sumner Hill Farm'}</title>
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="icon" href="/images/logo.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/images/logo.svg">
+    <meta name="description" content="Sumner Hill Farm — small-batch pure maple syrup from Stamford, VT. Appointment visits by email only.">
+    <meta property="og:title" content={title ? `${title} — Sumner Hill Farm` : 'Sumner Hill Farm'} />
+    <meta property="og:description" content="Small-batch pure maple syrup from Sumner Hill Farm in Stamford, VT. Email info@sumnerhill.com to order or visit." />
+    <meta property="og:image" content="/images/maple-landscape.svg" />
+    <meta property="og:url" content="https://sumnerhill.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
