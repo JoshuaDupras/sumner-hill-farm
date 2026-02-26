@@ -15,3 +15,7 @@ Files of interest
 - [src/pages/index.astro](src/pages/index.astro)
 - [src/pages/updates/index.astro](src/pages/updates/index.astro)
 - [src/pages/contact.astro](src/pages/contact.astro)
+
+Copyright
+
+Copyright © 2026 Sumner Hill Farm.
